@@ -9,10 +9,7 @@ body{
 .navbar{
     max-height: 50px; 
 	background-color: #cacccb; 
-    font-size: 15px; 
-}
-
-.navigation .navbar-brand{
+    font-size: 15px;
 	color: white; 
 	margin-left: 50px; 
 	padding: inherit; 
@@ -21,6 +18,18 @@ body{
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+
+.nav-link:hover{
+    background-color:#adc7c4;
+}
+
+.dropdown-menu{
+    color: #adc7c4
+}
 .dropdown-item{
     color: #30615c; 
 }
@@ -29,9 +38,6 @@ body{
     background-color:#adc7c4; 
 }
 
-.nav-link:hover{
-    background-color:#adc7c4;
-}
 
 
 /* Media Queries */
@@ -39,16 +45,11 @@ body{
 .navbar-expand-lg{
 	background-color: #38ab87;
 }
-.navbar{
-    max-height: none; 
-    padding: inherit;
-}
-.navbar div{
-    margin: inherit; 
-    background-color: white;  
-}
+
+
 .navbar-brand{
-    padding: 10px; 
+    padding: 10px;
+    color: #38ab87;
 }
 
 button{
@@ -60,7 +61,7 @@ button:focus {
 }
 }
 
-.description-content {
+.title {
 	margin-top: 30px;
 	margin-bottom: 60px;
 	padding: 10px 30px 5px;
@@ -84,9 +85,13 @@ button:focus {
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+.carousel-indicators{
+    outline: 10px #38ab87;
+}
+
 img{
-	width: 100%;
-	height: 100%;
+	width: 400;
+	height: auto;
 }
 
 .description-image {
@@ -97,7 +102,7 @@ img{
 
 p{
 	color: #414d4a;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
